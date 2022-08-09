@@ -3,16 +3,16 @@ while True: #Pengulangan
     import os
     import sys
     import time
-    scriptpath = "../storage/emulated/0/python/toolus.py"
-    sys.path.append(os.path.abspath(scriptpath))
-    scriptpath = "../storage/emulated/0/python/bin.py"
-    sys.path.append(os.path.abspath(scriptpath))
-    scriptpath = "../storage/emulated/0/python/celcius_conv.py"
-    sys.path.append(os.path.abspath(scriptpath))
-    scriptpath = "../storage/emulated/0/python/hitunglembur.py"
-    sys.path.append(os.path.abspath(scriptpath))
-    scriptpath = "../storage/emulated/0/python/updatetools.py"
-    sys.path.append(os.path.abspath(scriptpath))
+    #scriptpath = "../storage/emulated/0/python/toolus.py"
+#    sys.path.append(os.path.abspath(scriptpath)).
+#    scriptpath = "../storage/emulated/0/python/bin.py"
+#    sys.path.append(os.path.abspath(scriptpath))
+#    scriptpath = "../storage/emulated/0/python/celcius_conv.py"
+#    sys.path.append(os.path.abspath(scriptpath))
+#    scriptpath = "../storage/emulated/0/python/hitunglembur.py"
+#    sys.path.append(os.path.abspath(scriptpath))
+#    scriptpath = "../storage/emulated/0/python/updatetools.py"
+#    sys.path.append(os.path.abspath(scriptpath))
     #Hiasan
     print("====PROGRAM TOOLS SEDERHANA====")
     print("""
@@ -20,7 +20,6 @@ while True: #Pengulangan
         1.Kalkulator Suhu
         2.Kalkulator Biner
         3.Hitung Lemburan
-        a.Update/Reinstall Tools?
         0.Keluar Program
         """)
      #Input
@@ -33,8 +32,8 @@ while True: #Pengulangan
         import bin
     elif nilai == "3":
         import hitunglembur
-    elif nilai == "a":
-        import updatetools
+    #elif nilai == "a":
+        #import updatetools
     elif nilai == "0":
         os.system("clear")
         print("\nProgram Berhenti!")
