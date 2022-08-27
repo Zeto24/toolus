@@ -11,7 +11,7 @@ tapi saya akan tetap berusaha.
 
 
 # Thanks for : 
-              1.Tuhan "?"
+              1.Tuhan
               2.Google :
                         1.YT Channel : Kelas Terbuka
               2.Facebook
